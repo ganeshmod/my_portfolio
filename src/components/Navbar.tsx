@@ -7,6 +7,7 @@ const links = [
   { label: "projects", href: "#projects" },
   { label: "experience", href: "#experience" },
   { label: "contact", href: "#contact" },
+  { label: "resume", href: "/resume.pdf", isExternal: true },
 ];
 
 export default function Navbar() {
@@ -38,6 +39,8 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
+              target={l.isExternal ? "_blank" : undefined}
+              rel={l.isExternal ? "noreferrer" : undefined}
               className="font-display text-xs text-white/40 hover:text-white tracking-widest uppercase transition-colors duration-200"
             >
               {l.label}
@@ -66,6 +69,8 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
+              target={l.isExternal ? "_blank" : undefined}
+              rel={l.isExternal ? "noreferrer" : undefined}
               onClick={() => setMenuOpen(false)}
               className="font-display text-xs text-white/50 hover:text-white tracking-widest uppercase transition-colors"
             >

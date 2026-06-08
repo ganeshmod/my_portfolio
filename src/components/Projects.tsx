@@ -15,7 +15,7 @@ const projects = [
     desc: "A server-side rendered e-commerce site built with Next.js. Features product listing, dynamic routing, and a sleek UI. An assessment project showcasing my frontend skills.",
     tags: ["Next.js", "JavaScript", "TailwindCSS","Redux",],
     type: "Assessment",
-    link: "e-commerce-ssr-96ss.vercel.app/",
+    link: "https://e-commerce-ssr-96ss.vercel.app/",
   },
   {
     num: "03",

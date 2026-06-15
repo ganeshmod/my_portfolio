@@ -38,7 +38,7 @@ export default function About() {
         {/* Stats */}
         <div className="grid grid-cols-2 gap-px bg-white/5">
           {[
-            { num: "1+", label: "Year of experience" },
+            { num: "<1", label: "Year of experience" },
             { num: "300+", label: "LeetCode problems" },
             { num: "5+", label: "Projects shipped" },
             { num: "MERN", label: "Primary stack" },
